@@ -1,0 +1,21 @@
+<?php
+const BASE_NAMESPACE ='AppBundle\bestelApp\\';
+const DATA_SOURCE_NAME = 'mysql:dbname=flowerpower;host=127.0.0.1';
+const DB_USERNAME = 'root';
+const DB_PASSWORD = '';
+const DEFAULT_ROLE = 'bezoeker';
+const IMAGE_LOCATION='img/producten/';
+const IMAGE_DEFAULT_NAME="defaultProduct.png";
+
+const IMAGE_SUCCES=3;
+const IMAGE_FAILURE_SIZE_EXCEEDED=4;
+const IMAGE_FAILURE_WRONG_TYPE=5;
+const IMAGE_FAILURE_SAVE_FAILED=6;  
+const IMAGE_FAILURE_NO_IMAGE_UPLOADED=7;
+
+const REQUEST_SUCCES=8;
+const REQUEST_FAILURE_DATA_INCOMPLETE=9;
+const REQUEST_FAILURE_DATA_INVALID=10;
+const REQUEST_NOTHING_CHANGED=12;
+
+const DB_NOT_ACCEPTABLE_DATA = 11;
